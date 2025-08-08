@@ -1,19 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Chess Board</title>
-        <link rel=stylesheet href="style.css">
-    </head>
-    <body>
-        <div class="chessboard">
-        <div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black" ></div><div ></div><div class="black"></div><div></div>
-        <div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div>
-        <div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black" ></div><div ></div><div class="black"></div><div></div>
-        <div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div>
-        <div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black" ></div><div ></div><div class="black"></div><div></div>
-        <div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div>
-        <div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black" ></div><div ></div><div class="black"></div><div></div>
-        <div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div><div ></div><div class="black"></div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chessboard">
+        <!-- Row 1: Black major pieces -->
+        <div class="square white"><span class="black-piece">♜</span></div>
+        <div class="square black"><span class="black-piece">♞</span></div>
+        <div class="square white"><span class="black-piece">♝</span></div>
+        <div class="square black"><span class="black-piece">♛</span></div>
+        <div class="square white"><span class="black-piece">♚</span></div>
+        <div class="square black"><span class="black-piece">♝</span></div>
+        <div class="square white"><span class="black-piece">♞</span></div>
+        <div class="square black"><span class="black-piece">♜</span></div>
+
+        <!-- Row 2: Black pawns -->
+        <div class="square black"><span class="black-piece">♟</span></div>
+        <div class="square white"><span class="black-piece">♟</span></div>
+        <div class="square black"><span class="black-piece">♟</span></div>
+        <div class="square white"><span class="black-piece">♟</span></div>
+        <div class="square black"><span class="black-piece">♟</span></div>
+        <div class="square white"><span class="black-piece">♟</span></div>
+        <div class="square black"><span class="black-piece">♟</span></div>
+        <div class="square white"><span class="black-piece">♟</span></div>
+
+        <!-- Rows 3–6: Empty -->
+        <!-- Row 3 -->
+        <div class="square white"></div><div class="square black"></div>
+        <div class="square white"></div><div class="square black"></div>
+        <div class="square white"></div><div class="square black"></div>
+        <div class="square white"></div><div class="square black"></div>
+
+        <!-- Row 4 -->
+        <div class="square black"></div><div class="square white"></div>
+        <div class="square black"></div><div class="square white"></div>
+        <div class="square black"></div><div class="square white"></div>
+        <div class="square black"></div><div class="square white"></div>
+
+        <!-- Row 5 -->
+        <div class="square white"></div><div class="square black"></div>
+        <div class="square white"></div><div class="square black"></div>
+        <div class="square white"></div><div class="square black"></div>
+        <div class="square white"></div><div class="square black"></div>
+
+        <!-- Row 6 -->
+        <div class="square black"></div><div class="square white"></div>
+        <div class="square black"></div><div class="square white"></div>
+        <div class="square black"></div><div class="square white"></div>
+        <div class="square black"></div><div class="square white"></div>
+
+        <!-- Row 7: White pawns -->
+        <div class="square white"><span class="white-piece">♙</span></div>
+        <div class="square black"><span class="white-piece">♙</span></div>
+        <div class="square white"><span class="white-piece">♙</span></div>
+        <div class="square black"><span class="white-piece">♙</span></div>
+        <div class="square white"><span class="white-piece">♙</span></div>
+        <div class="square black"><span class="white-piece">♙</span></div>
+        <div class="square white"><span class="white-piece">♙</span></div>
+        <div class="square black"><span class="white-piece">♙</span></div>
+
+        <!-- Row 8: White major pieces -->
+        <div class="square black"><span class="white-piece">♖</span></div>
+        <div class="square white"><span class="white-piece">♘</span></div>
+        <div class="square black"><span class="white-piece">♗</span></div>
+        <div class="square white"><span class="white-piece">♕</span></div>
+        <div class="square black"><span class="white-piece">♔</span></div>
+        <div class="square white"><span class="white-piece">♗</span></div>
+        <div class="square black"><span class="white-piece">♘</span></div>
+        <div class="square white"><span class="white-piece">♖</span></div>
+    </div>
+</body>
 </html>
